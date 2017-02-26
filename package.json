@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/reza8793/NYT-React-Search/issues"
   },
-  "homepage": "https://github.com/reza8793/NYT-React-Search#readme"
+  "homepage": "https://github.com/reza8793/NYT-React-Search#readme",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0"
+  }
 }
