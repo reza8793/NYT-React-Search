@@ -4,6 +4,7 @@
   "description": "New York Times Scraper with React, MongoDB, Express &amp; Node",
   "main": "NYTCode.js",
   "scripts": {
+    "compile": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,12 @@
     "babel-loader": "^6.3.2",
     "babel-preset-latest": "^6.22.0",
     "babel-preset-react": "^6.23.0",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.8.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "webpack": "^2.2.1"
   }
 }
