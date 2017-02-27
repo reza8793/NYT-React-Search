@@ -71,6 +71,7 @@ function runQuery(numArticles, queryURL){
 					$("#articleWell-"+ articleCounter).append('<h5>Section: ' + NYTData.response.docs[i].section_name + "</h5>");
 					$("#articleWell-"+ articleCounter).append('<h5>' + NYTData.response.docs[i].pub_date + "</h5>");
 					$("#articleWell-"+ articleCounter).append("<a href='" + NYTData.response.docs[i].web_url + "'>" + NYTData.response.docs[i].web_url + "</a>");
+					$("#articleWell-"+ articleCounter).append("<button data-id='" + NYTData.response.docs[i]._id + "' id='" + "saveArticle" + "'>" + "Save Article" + "</button>"); 
 
 					// Log the remaining fields to console as well
 					console.log(NYTData.response.docs[i].pub_date);
